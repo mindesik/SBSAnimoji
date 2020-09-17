@@ -94,7 +94,7 @@
     [self.puppetView.leadingAnchor constraintEqualToAnchor:self.leadingAnchor].active = YES;
     [self.puppetView.trailingAnchor constraintEqualToAnchor:self.trailingAnchor].active = YES;
     [self.puppetView.topAnchor constraintEqualToAnchor:self.safeAreaLayoutGuide.topAnchor].active = YES;
-    [self.puppetView.heightAnchor constraintEqualToConstant:335].active = YES;
+    [self.puppetView.heightAnchor constraintEqualToConstant: UIScreen.mainScreen.bounds.size.width].active = YES;
     
     [self.puppetViewSeparatorView.leadingAnchor constraintEqualToAnchor:self.leadingAnchor].active = YES;
     [self.puppetViewSeparatorView.trailingAnchor constraintEqualToAnchor:self.trailingAnchor].active = YES;
